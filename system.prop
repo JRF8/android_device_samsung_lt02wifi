@@ -1,0 +1,6 @@
+#
+# system.prop for lt02wifi
+#
+
+# Wifi-Only
+ro.carrier=wifi-only
