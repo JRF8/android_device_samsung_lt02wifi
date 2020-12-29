@@ -19,3 +19,6 @@ DEVICE_PATH := device/samsung/lt02wifi
 
 ## Inherit common device
 include device/samsung/lt02-common/lt02.mk
+
+## Inherit Vendor Blobs
+$(call inherit-product, vendor/samsung/lt02wifi/lt02wifi-vendor.mk)

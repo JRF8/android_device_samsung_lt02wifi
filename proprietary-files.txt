@@ -1,0 +1,15 @@
+#
+# Vendor Blobs for lt02wifi
+#
+
+# Graphics
+lib/egl/libEGL_MRVL.so
+lib/egl/libGLESv1_CM_MRVL.so
+lib/egl/libGLESv2_MRVL.so
+lib/hw/gralloc.mrvl.so
+lib/hw/hwcomposer.mrvl.so
+lib/libGAL.so
+lib/libHWComposerGC.so
+lib/libgcu.so
+lib/libgputex.so
+lib/libmvmem.so
