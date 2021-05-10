@@ -20,6 +20,10 @@ DEVICE_PATH := device/samsung/lt02wifi
 ## Inherit common device
 $(call inherit-product, device/samsung/lt02-common/lt02.mk)
 
+## Inherit vendor blobs
+$(call inherit-product, vendor/samsung/lt02wifi/lt02wifi-vendor.mk)
+
 # Wifi-Only
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.carrier=wifi-only
+
