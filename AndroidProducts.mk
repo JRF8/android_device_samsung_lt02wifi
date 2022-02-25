@@ -19,4 +19,4 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     lineage_lt02wifi-eng \
-    lineage_lt02wifi-userdebug \
+    lineage_lt02wifi-userdebug
