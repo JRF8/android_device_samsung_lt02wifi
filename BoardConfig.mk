@@ -22,3 +22,7 @@ include device/samsung/lt02-common/BoardConfigCommon.mk
 
 # OTA
 TARGET_OTA_ASSERT_DEVICE := lt02wifi
+
+# Kernel Paths
+TARGET_KERNEL_SOURCE := kernel/samsung/lt02wifi
+TARGET_KERNEL_CONFIG := asasoft_pxa986_lt02_defconfig
