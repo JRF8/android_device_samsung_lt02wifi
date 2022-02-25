@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage.mk
+    $(LOCAL_DIR)/lineage_lt02wifi.mk
 
 COMMON_LUNCH_CHOICES := \
     lineage_lt02wifi-eng \
